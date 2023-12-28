@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WordGifts</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">WordGifts</h1>
+    </header>
+    <img id="sleigh" src="sleigh.png" alt="Santa's Sleigh">
+
+    <div>
+        <label for="name-input">Your Name:</label>
+        <input type="text" id="name-input" placeholder="Your Name">
+        <label for="wish-input">Your Christmas Wish:</label>
+        <input type="text" id="wish-input" placeholder="Your Wish">
+        <button onclick="addWish()">Send me a gift</button>
+        <button onclick="resetTree()">Reset </button>
+    </div>
+
+    <div id="christmas-tree-container">
+        <img src="christmas-tree.png" alt="Christmas Tree" id="christmas-tree">
+        
+    </div>
+    <footer>Click on the tree to get the sleigh moving!</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
